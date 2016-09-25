@@ -6,6 +6,10 @@ public class Vehicle {
 	private String brand;
 	
 	public Vehicle(){}
+	
+	public Vehicle(int key){
+		this.key=key;
+	}
 		
 	public void turnon(int key){
 		if(this.key==key){
